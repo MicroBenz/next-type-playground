@@ -1,0 +1,37 @@
+{
+  "name": "next-type-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicroBenz/next-type-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicroBenz/next-type-playground/issues"
+  },
+  "homepage": "https://github.com/MicroBenz/next-type-playground#readme",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^3.4.9"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.34",
+    "@types/next": "^7.0.0",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "typescript": "^3.1.1"
+  }
+}
